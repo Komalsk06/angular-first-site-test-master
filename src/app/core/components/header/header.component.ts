@@ -45,14 +45,14 @@ import { submenuService } from './submenu.service';
           <a class="navbar-item" routerLink="users">{{users}}</a>
           <!--li-->
           <div class="dropdown">
-              <a class="navbar-link" routerlink="Training">{{training}}</a>
-              <div class = "dropdown-content">
-                <ul>
-                  <li *ngFor = "let menu of submenu">
-                    <a>{{menu.name}}</a>
-                  </li>
-                </ul>
-              </div>      
+            <a class="navbar-link" routerlink="Training">{{training}}</a>
+            <div class = "dropdown-content">
+              <ul>
+                <li *ngFor = "let menu of submenu">
+                  <a>{{menu.name}}</a>
+                </li>
+              </ul>
+            </div>
           </div>
          <!--/li-->
         </div>
